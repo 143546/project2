@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <title>调查问卷</title>
+    <style>
+        input, button { display: block; }
+    </style>
+</head>
+<body>
+    <form method="post" action="/question/create.do">
+        <!-- 题目 -->
+        <input type="text" name="question">
+        <!-- 四个单选的选项 -->
+        <input type="text" name="option">
+        <input type="text" name="option">
+        <input type="text" name="option">
+        <input type="text" name="option">
+        <!-- 提交按钮 -->
+        <button>保存</button>
+    </form>
+</body>
+</html>
